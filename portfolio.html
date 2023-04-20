@@ -11,45 +11,51 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/syles.css" />
   </head>
   <body>
     <!--======== Header =========-->
     <header class="page-header">
-      <nav class="page-nav">
-        <a href="./index.html" class="link logo"
-          >Web<span class="logo-text">Studio</span></a
-        >
-        <ul class="menu list">
-          <li class="menu-item">
-            <a class="link menu-link" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="link menu-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="link menu-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contact-info">
-        <ul class="list contact-info-list">
-          <li class="contact-list-item">
-            <a class="link contact-item" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contact-list-item">
-            <a class="link contact-item" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container page-header-container">
+        <nav class="page-nav">
+          <a href="./index.html" class="link logo"
+            >Web<span class="logo-text">Studio</span></a
+          >
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="link menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="link menu-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="link menu-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contact-info">
+          <ul class="list contact-info-list">
+            <li class="contact-list-item">
+              <a class="link contact-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-list-item">
+              <a class="link contact-item" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <section class="portfolio">
-        <h1 hidden>Portfolio</h1>
+      <section class="portfolio container">
+        <h1 class="visually-hidden">Portfolio</h1>
         <!--======== Buttons =========-->
         <ul class="filter-btn-list list">
           <li class="filter-list-item">
@@ -77,9 +83,11 @@
                 alt="Banking App Interface Concept"
                 width="360"
               />
-              <h2 class="subtitle">Banking App Interface Concept</h2>
-              <p class="subtitle-description">App</p></a
-            >
+              <div class="portfolio-list-content-wrapper">
+                <h2 class="subtitle">Banking App Interface Concept</h2>
+                <p class="subtitle-description">App</p>
+              </div>
+            </a>
           </li>
           <li class="portfolio-list-item">
             <a href="" class="portfolio-list-link link"
@@ -88,9 +96,11 @@
                 alt="Cashless Payment"
                 width="360"
               />
-              <h2 class="subtitle">Cashless Payment</h2>
-              <p class="subtitle-description">Marketing</p></a
-            >
+              <div class="portfolio-list-content-wrapper">
+                <h2 class="subtitle">Cashless Payment</h2>
+                <p class="subtitle-description">Marketing</p>
+              </div>
+            </a>
           </li>
           <li class="portfolio-list-item">
             <a href="" class="portfolio-list-link link"
@@ -99,9 +109,11 @@
                 alt="Meditation App"
                 width="360"
               />
-              <h2 class="subtitle">Meditation App</h2>
-              <p class="subtitle-description">App</p></a
-            >
+              <div class="portfolio-list-content-wrapper">
+                <h2 class="subtitle">Meditation App</h2>
+                <p class="subtitle-description">App</p>
+              </div>
+            </a>
           </li>
           <li class="portfolio-list-item">
             <a href="" class="portfolio-list-link link"
@@ -110,9 +122,11 @@
                 alt="Taxi Service"
                 width="360"
               />
-              <h2 class="subtitle">Taxi Service</h2>
-              <p class="subtitle-description">Marketing</p></a
-            >
+              <div class="portfolio-list-content-wrapper">
+                <h2 class="subtitle">Taxi Service</h2>
+                <p class="subtitle-description">Marketing</p>
+              </div>
+            </a>
           </li>
           <li class="portfolio-list-item">
             <a href="" class="portfolio-list-link link"
@@ -121,9 +135,11 @@
                 alt="Screen Illustrations"
                 width="360"
               />
-              <h2 class="subtitle">Screen Illustrations</h2>
-              <p class="subtitle-description">Design</p></a
-            >
+              <div class="portfolio-list-content-wrapper">
+                <h2 class="subtitle">Screen Illustrations</h2>
+                <p class="subtitle-description">Design</p>
+              </div>
+            </a>
           </li>
           <li class="portfolio-list-item">
             <a href="" class="portfolio-list-link link"
@@ -132,9 +148,11 @@
                 alt="Online Courses"
                 width="360"
               />
-              <h2 class="subtitle">Online Courses</h2>
-              <p class="subtitle-description">Marketing</p></a
-            >
+              <div class="portfolio-list-content-wrapper">
+                <h2 class="subtitle">Online Courses</h2>
+                <p class="subtitle-description">Marketing</p>
+              </div>
+            </a>
           </li>
           <li class="portfolio-list-item">
             <a href="" class="portfolio-list-link link"
@@ -143,9 +161,11 @@
                 alt="Instagram Stories Concept"
                 width="360"
               />
-              <h2 class="subtitle">Instagram Stories Concept</h2>
-              <p class="subtitle-description">Design</p></a
-            >
+              <div class="portfolio-list-content-wrapper">
+                <h2 class="subtitle">Instagram Stories Concept</h2>
+                <p class="subtitle-description">Design</p>
+              </div>
+            </a>
           </li>
           <li class="portfolio-list-item">
             <a href="" class="portfolio-list-link link"
@@ -154,9 +174,11 @@
                 alt="Organic Food"
                 width="360"
               />
-              <h2 class="subtitle">Organic Food</h2>
-              <p class="subtitle-description">Web Site</p></a
-            >
+              <div class="portfolio-list-content-wrapper">
+                <h2 class="subtitle">Organic Food</h2>
+                <p class="subtitle-description">Web Site</p>
+              </div>
+            </a>
           </li>
           <li class="portfolio-list-item">
             <a href="" class="portfolio-list-link link"
@@ -165,22 +187,26 @@
                 alt="Fresh Coffee"
                 width="360"
               />
-              <h2 class="subtitle">Fresh Coffee</h2>
-              <p class="subtitle-description">Web Site</p></a
-            >
+              <div class="portfolio-list-content-wrapper">
+                <h2 class="subtitle">Fresh Coffee</h2>
+                <p class="subtitle-description">Web Site</p>
+              </div>
+            </a>
           </li>
         </ul>
       </section>
     </main>
     <!-- ========= Footer ========= -->
     <footer class="footer">
-      <a class="link logo" href="./index.html"
-        >Web<span class="footer-logo-text">Studio</span>
-      </a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a class="link footer-logo" href="./index.html"
+          >Web<span class="footer-logo-text">Studio</span>
+        </a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
