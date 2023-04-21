@@ -135,6 +135,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+
+  padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -378,6 +380,7 @@ body {
   border-radius: 4px;
   color: var(--light-text-color);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 .portfolio-list {
   display: flex;
@@ -391,9 +394,7 @@ body {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-list-content-wrapper {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
