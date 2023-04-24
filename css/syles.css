@@ -125,8 +125,6 @@ body {
   gap: 40px;
 }
 .menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .menu-link {
   font-family: inherit;
@@ -136,6 +134,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 
+  display: block;
   padding: 24px 0;
 }
 
