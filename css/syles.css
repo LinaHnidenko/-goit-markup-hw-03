@@ -378,7 +378,6 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--light-text-color);
-  cursor: pointer;
   border: 1px solid transparent;
 }
 .portfolio-list {
